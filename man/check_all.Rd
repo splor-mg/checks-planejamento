@@ -19,8 +19,6 @@ check_all(
   base_orcam_receita_investimento,
   base_qdd_fiscal,
   base_qdd_investimento,
-  base_qdd_plurianual,
-  base_qdd_plurianual_invest,
   base_repasse_recursos,
   desc_setor_governo,
   uo_acao_inativo_civil,
