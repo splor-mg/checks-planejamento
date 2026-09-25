@@ -1,0 +1,19 @@
+# Verifica se o detalhamento do quantitativo de inativos civis foi realizado
+
+O detalhamento é obrigatório para ações orçamentárias que apresentam
+valores superiores a R\$ 1.000 nas ações do FFP.
+
+## Usage
+
+``` r
+check_detalhamento_pessoal_inativo_civil(
+  base_categoria_pessoal,
+  base_qdd_fiscal,
+  uo_acao_inativo_civil,
+  stop_on_failure = FALSE,
+  output = FALSE,
+  json_outfile = NULL,
+  log_level = "ERROR",
+  msg_template = NULL
+)
+```

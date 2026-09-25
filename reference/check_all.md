@@ -1,0 +1,29 @@
+# Verifica todos os testes de validação
+
+Verifica todos os testes de validação
+
+## Usage
+
+``` r
+check_all(
+  programas_planejamento,
+  acoes_planejamento,
+  localizadores_todos_planejamento,
+  indicadores_planejamento,
+  base_categoria_pessoal,
+  base_detalhamento_obras,
+  base_intra_orcamentaria_detalhamento,
+  base_intra_orcamentaria_repasse,
+  base_limite_cota,
+  base_orcam_despesa_item_fiscal,
+  base_orcam_receita_fiscal,
+  base_orcam_receita_investimento,
+  base_qdd_fiscal,
+  base_qdd_investimento,
+  base_repasse_recursos,
+  desc_setor_governo,
+  uo_acao_inativo_civil,
+  output = FALSE,
+  stop_on_failure = FALSE
+)
+```
